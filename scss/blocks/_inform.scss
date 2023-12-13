@@ -1,0 +1,157 @@
+.inform {
+}
+.inform__container {
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding: 0px 15px;
+}
+.inform__body {
+  display: flex;
+}
+.inform__item {
+  color: #222;
+  max-width: 100%;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #222;
+  cursor: pointer;
+}
+.titleblc__title {
+  font-size: rem(56);
+  line-height: 4rem;
+  padding-right: 25px;
+}
+.titleblc__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 50%;
+}
+.faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inform__title {
+  font-size: rem(26);
+  color: #222;
+}
+.inform__textblc {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease;
+}
+
+.acord {
+}
+.inform__txt {
+  padding-top: 1rem;
+  line-height: 1.6;
+}
+
+.inform__item.active .inform__textblc {
+  max-height: 300px;
+  animation: fade 1s ease-in;
+}
+.inform__item.active svg {
+  transform: rotate(180deg);
+}
+svg {
+  transition: transform 0.5s ease-in;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+#circle {
+  position: relative;
+
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle text {
+  font-family: "Helvetica Neue", Arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#circle svg {
+  stroke-width: 0px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 540px;
+
+  -webkit-animation-name: rotate;
+  -moz-animation-name: rotate;
+  -ms-animation-name: rotate;
+  -o-animation-name: rotate;
+  animation-name: rotate;
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  -ms-animation-duration: 8s;
+  -o-animation-duration: 8s;
+  animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -ms-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(360deg);
+  }
+  to {
+    -webkit-transform: rotate(0);
+  }
+}
+@-moz-keyframes rotate {
+  from {
+    -moz-transform: rotate(360deg);
+  }
+  to {
+    -moz-transform: rotate(0);
+  }
+}
+@-ms-keyframes rotate {
+  from {
+    -ms-transform: rotate(360deg);
+  }
+  to {
+    -ms-transform: rotate(0);
+  }
+}
+@-o-keyframes rotate {
+  from {
+    -o-transform: rotate(360deg);
+  }
+  to {
+    -o-transform: rotate(0);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0);
+  }
+}

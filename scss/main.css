@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500);
+@import url(https://fonts.googleapis.com/css?family=Raleway:600);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 120.8333333333%;
+  color: #222;
+}
+
+img {
+  vertical-align: top;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+}
+
+input,
+button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+._container {
+  max-width: 1375px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
+}
+
+.wrap {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 15px 70px;
+  display: inline-block;
+}
+.button__link {
+  color: #4d81ea;
+}
+
+._stroke {
+  color: #333;
+  border-radius: 10px;
+  padding: 15px 30px;
+  border: 1px solid #222;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.menu {
+  display: flex;
+}
+.menu__body {
+  display: flex;
+  gap: 60px;
+}
+.menu__list {
+  display: flex;
+  gap: 45px;
+}
+.menu__link {
+  color: #222;
+  font-size: 1.125rem;
+}
+.menu__link:hover {
+  text-decoration: underline;
+  color: #4d81ea;
+}
+.menu__lang__button {
+  font-size: 1.125rem;
+}
+
+.english {
+  color: #4d81ea;
+}
+
+.dutch {
+  color: rgba(51, 51, 51, 0.6);
+}
+
+.first {
+  position: relative;
+}
+.first__container {
+  padding: 100px 15px;
+}
+.first__body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.first__title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 116.6666666667%;
+  font-family: Arial;
+  font-size: 3.625rem;
+  margin-bottom: 30px;
+}
+.first__buttons {
+  margin-top: 60px;
+  display: inline-flex;
+  gap: 40px;
+  font-size: 0.875rem;
+}
+.first__button {
+  display: inline-flex;
+  padding: 15px 69px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #fff;
+  background: #0972ee;
+}
+.first__text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.img-block__txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span {
+  color: #4d81ea;
+}/*# sourceMappingURL=main.css.map */

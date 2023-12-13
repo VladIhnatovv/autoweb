@@ -1,0 +1,83 @@
+.footer {
+}
+.footer__container {
+  margin-top: 100px;
+  background-color: #0972ee;
+  color: #fff;
+  padding: 60px 0px;
+}
+._container {
+}
+.footer__block {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.footer__body {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.footer__itm {
+}
+.footer__title {
+  color: #fff;
+  font-size: rem(18);
+  font-weight: 400;
+}
+.connect__email {
+  display: flex;
+  flex-direction: column;
+}
+.footer__connects {
+  column-gap: 30px;
+  align-items: center;
+  display: flex;
+}
+.connect__adress {
+  display: flex;
+  flex-direction: column;
+}
+.connect__phone {
+  display: flex;
+  flex-direction: column;
+}
+.footer__icons {
+  display: flex;
+  justify-content: center; /* Це для центрування іконок у блоці */
+  column-gap: 30px;
+}
+.footer__icon {
+  text-align: center;
+  align-items: center;
+  width: 56px; /* Ширина обгортки */
+  height: 56px; /* Висота обгортки */
+  border-radius: 50%; /* Для створення кулі */
+  background-color: #fff; /* Колір кулі */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease 0s;
+}
+
+.footer__icon:hover {
+  background-color: #0972ee; /* Зміна кольору при наведенні */
+}
+
+svg {
+  fill: none;
+  stroke: #0972ee;
+  stroke-width: 3px;
+  transition: all 0.3s ease 0s;
+  width: 36px;
+  height: 36px;
+}
+
+.footer__icon:hover svg {
+  fill: #fff; /* Зміна кольору логотипу при наведенні */
+  stroke: #0972ee;
+  stroke-width: 2px;
+}

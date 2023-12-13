@@ -1,0 +1,76 @@
+@mixin text1() {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: rem(65);
+  line-height: prc(71, 65);
+}
+
+@mixin text2() {
+  font-size: rem(18);
+  line-height: prc(22, 18);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  background-color: #fff;
+  font-weight: 500;
+  font-size: rem(18);
+  line-height: prc(29, 24);
+  color: #222;
+}
+
+img {
+  vertical-align: top;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+}
+input,
+button {
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+._container {
+  max-width: $maxWidthContainer + px;
+  margin: 0 auto;
+  padding: 0px 15px;
+  box-sizing: content-box;
+}
+
+.wrap {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
