@@ -96,18 +96,17 @@ const rotateBetweenWords = (value) => {
   }
 }
 
-// расстояние между буквами
-const rotateBetweenLetters = (value) => {
-  const letters = document.querySelectorAll('.wheel__letter')
-  
-  let deg = 0
-  
-  for (let letter of letters) {
-      letter.style.transform = `rotate(${ deg }deg)`
-      deg += value
-  }
-  
-}
+//----------------------------------------------------------
+const menuLinks = document.querySelectorAll('.menu__link');
 
-rotateBetweenWords(50)
-rotateBetweenLetters(12)
+menuLinks.forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    const targetId = this.getAttribute('href');
+    const targetSection = document.querySelector(targetId);
+
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+});
