@@ -9,6 +9,8 @@
 ._container {
 }
 .footer__block {
+  flex-direction: column;
+  gap: 30px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -33,13 +35,15 @@
   flex-direction: column;
 }
 .footer__connects {
-  column-gap: 30px;
+  column-gap: 40px;
   align-items: center;
   display: flex;
 }
 .connect__adress {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
 }
 .connect__phone {
   display: flex;
@@ -49,6 +53,26 @@
   display: flex;
   justify-content: center; /* Це для центрування іконок у блоці */
   column-gap: 30px;
+}
+.connect__time {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+}
+.connect__img-adress,
+.connect__img-email,
+.connect__img-time,
+.connect__img-phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.connect__img-adress,
+.connect__img-email,
+.connect__img-time,
+.connect__img-phone img {
+  fill: #fff;
 }
 .footer__icon {
   text-align: center;

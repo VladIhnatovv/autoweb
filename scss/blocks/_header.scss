@@ -53,7 +53,7 @@
 }
 @media only screen and (max-width: 800px) {
   .menu__link {
-    font-size: 20px;
+    font-size: rem(36);
   }
   .menu__body {
     justify-content: space-between;
@@ -70,6 +70,7 @@
     z-index: 9999;
   }
   .menu__list {
+    row-gap: 50px;
     z-index: 9998;
     position: fixed;
     left: -100%;
@@ -78,7 +79,6 @@
     height: 100%;
     flex-direction: column;
     background-color: #f1f1eb;
-
     justify-content: center;
     text-align: center;
     transition: all 0.3s ease 0s;
