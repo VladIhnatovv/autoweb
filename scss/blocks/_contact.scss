@@ -53,6 +53,7 @@ input[type="submit"] {
   transition: 0.2s ease-in;
   color: white;
   padding: 12px 80px;
+  width: fit-content;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -61,4 +62,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
   color: #fff;
   background: #340606;
+}
+.form {
+  display: flex;
+  flex-direction: column;
 }
