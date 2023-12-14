@@ -2,7 +2,7 @@
 }
 .footer__container {
   margin-top: 100px;
-  background-color: #0972ee;
+  background-color: $mainColor;
   color: #fff;
   padding: 60px 0px;
 }
@@ -88,12 +88,12 @@
 }
 
 .footer__icon:hover {
-  background-color: #0972ee; /* Зміна кольору при наведенні */
+  background-color: $mainColor; /* Зміна кольору при наведенні */
 }
 
 svg {
   fill: none;
-  stroke: #0972ee;
+  stroke: $mainColor;
   stroke-width: 3px;
   transition: all 0.3s ease 0s;
   width: 36px;
@@ -102,6 +102,6 @@ svg {
 
 .footer__icon:hover svg {
   fill: #fff; /* Зміна кольору логотипу при наведенні */
-  stroke: #0972ee;
+  stroke: $mainColor;
   stroke-width: 2px;
 }

@@ -24,7 +24,7 @@
     font-size: rem(18);
     &:hover {
       text-decoration: underline;
-      color: #4d81ea;
+      color: $mainColor;
     }
   }
   &__lang__button {
@@ -32,7 +32,7 @@
   }
 }
 .english {
-  color: #4d81ea;
+  color: $mainColor;
 }
 .dutch {
   color: rgba(51, 51, 51, 0.6);
