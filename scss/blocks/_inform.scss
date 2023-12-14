@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  max-width: 50%;
+  max-width: 60%;
 }
 .faq {
   display: flex;
@@ -34,8 +34,10 @@
   align-items: center;
 }
 .inform__title {
-  font-size: rem(26);
+  font-size: rem(24);
+  line-height: 32px;
   color: #222;
+  width: 60%;
 }
 .inform__textblc {
   max-height: 0;
